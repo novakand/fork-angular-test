@@ -1,5 +1,5 @@
 {
-  "name": "@renavigation2/constraints",
+  "name": "@novakand/constraints",
   "version": "4.31.2",
   "description": "Renavigation Constraints",
   "main": "lib/commonjs/index",
