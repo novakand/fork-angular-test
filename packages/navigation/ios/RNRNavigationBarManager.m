@@ -1,0 +1,18 @@
+#import "React/RCTViewManager.h"
+
+@interface RCT_EXTERN_MODULE(RNRNavigationBarManager, RCTViewManager)
+
+RCT_EXPORT_VIEW_PROPERTY(isTranslucent, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(prefersLargeTitles, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(_isHidden, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(_tintColor, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(_backgroundColor, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(barTintColor, NSNumber)
+RCT_EXPORT_VIEW_PROPERTY(titleStyle, NSDictionary)
+RCT_EXPORT_VIEW_PROPERTY(largeTitleStyle, NSDictionary)
+RCT_EXPORT_VIEW_PROPERTY(defaultTitleVerticalPositionAdjustment, CGFloat)
+RCT_EXPORT_VIEW_PROPERTY(defaultPromptTitleVerticalPositionAdjustment, CGFloat)
+RCT_EXPORT_VIEW_PROPERTY(compactTitleVerticalPositionAdjustment, CGFloat)
+RCT_EXPORT_VIEW_PROPERTY(compactPromptTitleVerticalPositionAdjustment, CGFloat)
+
+@end

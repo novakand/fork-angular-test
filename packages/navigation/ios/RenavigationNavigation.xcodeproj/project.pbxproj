@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0016D46256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0016D40256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.swift */; };
+		C0016D47256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0016D41256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpanded.swift */; };
+		C0016D48256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0016D42256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.m */; };
+		C0016D49256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0016D43256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.swift */; };
+		C0016D4A256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0016D44256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressed.swift */; };
+		C0016D4B256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0016D45256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.m */; };
+		C06A104B253B34F200D07B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C06A104A253B34F200D07B3B /* UIKit.framework */; };
+		C07A1EB8255B91F2007D8F13 /* RNRNavigationSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EA5255B91F2007D8F13 /* RNRNavigationSceneManager.swift */; };
+		C07A1EB9255B91F2007D8F13 /* RNRNavigationItemManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EA6255B91F2007D8F13 /* RNRNavigationItemManager.m */; };
+		C07A1EBA255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EA7255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.m */; };
+		C07A1EBB255B91F2007D8F13 /* RNRNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EA8255B91F2007D8F13 /* RNRNavigation.swift */; };
+		C07A1EBC255B91F2007D8F13 /* RNRNavigationScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EA9255B91F2007D8F13 /* RNRNavigationScene.swift */; };
+		C07A1EBD255B91F2007D8F13 /* RNRNavigationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAA255B91F2007D8F13 /* RNRNavigationManager.m */; };
+		C07A1EBE255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAB255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.swift */; };
+		C07A1EBF255B91F2007D8F13 /* RNRNavigationContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAC255B91F2007D8F13 /* RNRNavigationContainer.swift */; };
+		C07A1EC0255B91F2007D8F13 /* RNRNavigationItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAD255B91F2007D8F13 /* RNRNavigationItemManager.swift */; };
+		C07A1EC1255B91F2007D8F13 /* RNRNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAE255B91F2007D8F13 /* RNRNavigationBar.swift */; };
+		C07A1EC2255B91F2007D8F13 /* RNRNavigationBarAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EAF255B91F2007D8F13 /* RNRNavigationBarAppearance.swift */; };
+		C07A1EC3255B91F2007D8F13 /* RNRNavigationSceneManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB0255B91F2007D8F13 /* RNRNavigationSceneManager.m */; };
+		C07A1EC4255B91F2007D8F13 /* RNRNavigationBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB1255B91F2007D8F13 /* RNRNavigationBarManager.m */; };
+		C07A1EC5255B91F2007D8F13 /* RNRNavigationContainerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB2255B91F2007D8F13 /* RNRNavigationContainerManager.m */; };
+		C07A1EC6255B91F2007D8F13 /* RNRNavigationContainerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB3255B91F2007D8F13 /* RNRNavigationContainerManager.swift */; };
+		C07A1EC7255B91F2007D8F13 /* RNRNavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB4255B91F2007D8F13 /* RNRNavigationItem.swift */; };
+		C07A1EC8255B91F2007D8F13 /* RNRNavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB5255B91F2007D8F13 /* RNRNavigationManager.swift */; };
+		C07A1EC9255B91F2007D8F13 /* RNRNavigationBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB6255B91F2007D8F13 /* RNRNavigationBarManager.swift */; };
+		C07A1ECA255B91F2007D8F13 /* RNRNavigationSceneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07A1EB7255B91F2007D8F13 /* RNRNavigationSceneController.swift */; };
+		C0ABD12E2560DC8E0088832B /* RNRNavigationBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ABD12B2560DC8D0088832B /* RNRNavigationBarContent.swift */; };
+		C0ABD12F2560DC8E0088832B /* RNRNavigationBarContentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0ABD12C2560DC8D0088832B /* RNRNavigationBarContentManager.swift */; };
+		C0ABD1302560DC8E0088832B /* RNRNavigationBarContentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ABD12D2560DC8E0088832B /* RNRNavigationBarContentManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRenavigationNavigation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRenavigationNavigation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0016D40256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItemTitleViewFittingExpandedManager.swift; sourceTree = "<group>"; };
+		C0016D41256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpanded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItemTitleViewFittingExpanded.swift; sourceTree = "<group>"; };
+		C0016D42256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationItemTitleViewFittingExpandedManager.m; sourceTree = "<group>"; };
+		C0016D43256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItemTitleViewFittingCompressedManager.swift; sourceTree = "<group>"; };
+		C0016D44256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItemTitleViewFittingCompressed.swift; sourceTree = "<group>"; };
+		C0016D45256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationItemTitleViewFittingCompressedManager.m; sourceTree = "<group>"; };
+		C06A104A253B34F200D07B3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/iOSSupport/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C07A1EA5255B91F2007D8F13 /* RNRNavigationSceneManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationSceneManager.swift; sourceTree = "<group>"; };
+		C07A1EA6255B91F2007D8F13 /* RNRNavigationItemManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationItemManager.m; sourceTree = "<group>"; };
+		C07A1EA7255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationBarAppearanceManager.m; sourceTree = "<group>"; };
+		C07A1EA8255B91F2007D8F13 /* RNRNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigation.swift; sourceTree = "<group>"; };
+		C07A1EA9255B91F2007D8F13 /* RNRNavigationScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationScene.swift; sourceTree = "<group>"; };
+		C07A1EAA255B91F2007D8F13 /* RNRNavigationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationManager.m; sourceTree = "<group>"; };
+		C07A1EAB255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBarAppearanceManager.swift; sourceTree = "<group>"; };
+		C07A1EAC255B91F2007D8F13 /* RNRNavigationContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationContainer.swift; sourceTree = "<group>"; };
+		C07A1EAD255B91F2007D8F13 /* RNRNavigationItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItemManager.swift; sourceTree = "<group>"; };
+		C07A1EAE255B91F2007D8F13 /* RNRNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBar.swift; sourceTree = "<group>"; };
+		C07A1EAF255B91F2007D8F13 /* RNRNavigationBarAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBarAppearance.swift; sourceTree = "<group>"; };
+		C07A1EB0255B91F2007D8F13 /* RNRNavigationSceneManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationSceneManager.m; sourceTree = "<group>"; };
+		C07A1EB1255B91F2007D8F13 /* RNRNavigationBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationBarManager.m; sourceTree = "<group>"; };
+		C07A1EB2255B91F2007D8F13 /* RNRNavigationContainerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationContainerManager.m; sourceTree = "<group>"; };
+		C07A1EB3255B91F2007D8F13 /* RNRNavigationContainerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationContainerManager.swift; sourceTree = "<group>"; };
+		C07A1EB4255B91F2007D8F13 /* RNRNavigationItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationItem.swift; sourceTree = "<group>"; };
+		C07A1EB5255B91F2007D8F13 /* RNRNavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationManager.swift; sourceTree = "<group>"; };
+		C07A1EB6255B91F2007D8F13 /* RNRNavigationBarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBarManager.swift; sourceTree = "<group>"; };
+		C07A1EB7255B91F2007D8F13 /* RNRNavigationSceneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationSceneController.swift; sourceTree = "<group>"; };
+		C0ABD12B2560DC8D0088832B /* RNRNavigationBarContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBarContent.swift; sourceTree = "<group>"; };
+		C0ABD12C2560DC8D0088832B /* RNRNavigationBarContentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRNavigationBarContentManager.swift; sourceTree = "<group>"; };
+		C0ABD12D2560DC8E0088832B /* RNRNavigationBarContentManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRNavigationBarContentManager.m; sourceTree = "<group>"; };
+		C0E3042B25241D4D00DC94CB /* RenavigationNavigation-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RenavigationNavigation-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06A104B253B34F200D07B3B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRenavigationNavigation.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				C0E3042B25241D4D00DC94CB /* RenavigationNavigation-Bridging-Header.h */,
+				C07A1EA8255B91F2007D8F13 /* RNRNavigation.swift */,
+				C07A1EAE255B91F2007D8F13 /* RNRNavigationBar.swift */,
+				C07A1EAF255B91F2007D8F13 /* RNRNavigationBarAppearance.swift */,
+				C07A1EA7255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.m */,
+				C07A1EAB255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.swift */,
+				C0ABD12B2560DC8D0088832B /* RNRNavigationBarContent.swift */,
+				C0ABD12D2560DC8E0088832B /* RNRNavigationBarContentManager.m */,
+				C0ABD12C2560DC8D0088832B /* RNRNavigationBarContentManager.swift */,
+				C07A1EB1255B91F2007D8F13 /* RNRNavigationBarManager.m */,
+				C07A1EB6255B91F2007D8F13 /* RNRNavigationBarManager.swift */,
+				C07A1EAC255B91F2007D8F13 /* RNRNavigationContainer.swift */,
+				C07A1EB2255B91F2007D8F13 /* RNRNavigationContainerManager.m */,
+				C07A1EB3255B91F2007D8F13 /* RNRNavigationContainerManager.swift */,
+				C07A1EB4255B91F2007D8F13 /* RNRNavigationItem.swift */,
+				C07A1EA6255B91F2007D8F13 /* RNRNavigationItemManager.m */,
+				C07A1EAD255B91F2007D8F13 /* RNRNavigationItemManager.swift */,
+				C0016D44256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressed.swift */,
+				C0016D45256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.m */,
+				C0016D43256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.swift */,
+				C0016D41256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpanded.swift */,
+				C0016D42256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.m */,
+				C0016D40256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.swift */,
+				C07A1EAA255B91F2007D8F13 /* RNRNavigationManager.m */,
+				C07A1EB5255B91F2007D8F13 /* RNRNavigationManager.swift */,
+				C07A1EA9255B91F2007D8F13 /* RNRNavigationScene.swift */,
+				C07A1EB7255B91F2007D8F13 /* RNRNavigationSceneController.swift */,
+				C07A1EB0255B91F2007D8F13 /* RNRNavigationSceneManager.m */,
+				C07A1EA5255B91F2007D8F13 /* RNRNavigationSceneManager.swift */,
+				134814211AA4EA7D00B7C361 /* Products */,
+				C06A1049253B34F200D07B3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C06A1049253B34F200D07B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C06A104A253B34F200D07B3B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RenavigationNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RenavigationNavigation" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RenavigationNavigation;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRenavigationNavigation.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RenavigationNavigation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RenavigationNavigation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07A1EC1255B91F2007D8F13 /* RNRNavigationBar.swift in Sources */,
+				C0016D46256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.swift in Sources */,
+				C07A1EC4255B91F2007D8F13 /* RNRNavigationBarManager.m in Sources */,
+				C07A1EBE255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.swift in Sources */,
+				C07A1EC7255B91F2007D8F13 /* RNRNavigationItem.swift in Sources */,
+				C0ABD12F2560DC8E0088832B /* RNRNavigationBarContentManager.swift in Sources */,
+				C0ABD1302560DC8E0088832B /* RNRNavigationBarContentManager.m in Sources */,
+				C07A1ECA255B91F2007D8F13 /* RNRNavigationSceneController.swift in Sources */,
+				C0016D48256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpandedManager.m in Sources */,
+				C07A1EBC255B91F2007D8F13 /* RNRNavigationScene.swift in Sources */,
+				C0016D49256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.swift in Sources */,
+				C07A1EBB255B91F2007D8F13 /* RNRNavigation.swift in Sources */,
+				C07A1EC9255B91F2007D8F13 /* RNRNavigationBarManager.swift in Sources */,
+				C07A1EC6255B91F2007D8F13 /* RNRNavigationContainerManager.swift in Sources */,
+				C07A1EBD255B91F2007D8F13 /* RNRNavigationManager.m in Sources */,
+				C0016D4A256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressed.swift in Sources */,
+				C07A1EC0255B91F2007D8F13 /* RNRNavigationItemManager.swift in Sources */,
+				C0016D47256434DD00B981AF /* RNRNavigationItemTitleViewFittingExpanded.swift in Sources */,
+				C07A1EBF255B91F2007D8F13 /* RNRNavigationContainer.swift in Sources */,
+				C07A1EC5255B91F2007D8F13 /* RNRNavigationContainerManager.m in Sources */,
+				C07A1EB8255B91F2007D8F13 /* RNRNavigationSceneManager.swift in Sources */,
+				C07A1EBA255B91F2007D8F13 /* RNRNavigationBarAppearanceManager.m in Sources */,
+				C0ABD12E2560DC8E0088832B /* RNRNavigationBarContent.swift in Sources */,
+				C07A1EC3255B91F2007D8F13 /* RNRNavigationSceneManager.m in Sources */,
+				C07A1EC8255B91F2007D8F13 /* RNRNavigationManager.swift in Sources */,
+				C07A1EB9255B91F2007D8F13 /* RNRNavigationItemManager.m in Sources */,
+				C0016D4B256434DD00B981AF /* RNRNavigationItemTitleViewFittingCompressedManager.m in Sources */,
+				C07A1EC2255B91F2007D8F13 /* RNRNavigationBarAppearance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RenavigationNavigation;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RenavigationNavigation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RenavigationNavigation;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RenavigationNavigation-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RenavigationNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RenavigationNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
